@@ -6,7 +6,7 @@ export default function App() {
   console.log("Tabu");
   return (
     <View style={styles.container}>
-      <Text>Hello World!</Text>
+      <Text>Hello Beatiful One!</Text>
       <StatusBar style="auto" />
     </View>
   );
