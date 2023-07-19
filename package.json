@@ -2,14 +2,14 @@
   "name": "react-native-test",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
-  "homepage":"https://ych88.github.io/React-Native-Test/",
+  "homepage": "https://ych88.github.io/React-Native-Test/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
- "deploy": "React-Native-Test -d web-build",
-  "predeploy": "expo export:web"
+    "deploy": "React-Native-Test -d web-build",
+    "predeploy": "expo export:web"
   },
   "dependencies": {
     "@expo/webpack-config": "^18.1.1",
@@ -21,7 +21,8 @@
     "react-native-web": "~0.19.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "gh-pages": "^5.0.0"
   },
   "private": true
 }
