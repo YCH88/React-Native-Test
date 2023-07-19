@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
   getMoviesFromApiAsync();
+  console.log("Tabu");
   return (
     <View style={styles.container}>
       <Text>Hello World!</Text>
