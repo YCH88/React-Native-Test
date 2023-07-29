@@ -1,14 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { Alert, StyleSheet, Text, View } from 'react-native';
+import QRCode from 'react-native-qrcode-svg'
 
 export default function App() {
-  getMoviesFromApiAsync();
-  console.log("Tabu");
+  getAllMenu();  
   return (
     <View style={styles.container}>
-      <Text>Hello Beatiful One!</Text>
+      <Text>Hello Traveler!</Text>
       <StatusBar style="auto" />
+      <QRCode
+    value= "https://imkeskin.wixsite.com/bubble-tea"
+  />
     </View>
+    
   );
 }
 
@@ -21,10 +25,9 @@ const styles = StyleSheet.create({
   },
 });
 
-function getMoviesFromApiAsync() {
-  return fetch('https://pokeapi.co/api/v2/pokemon/ditto')
-  .then((response) => response.json().then((a)=>console.log(a)))
-  .catch((error) => {
-  console.error(error);
-  });
-  }
+  function getAllMenu() {
+    fetch(`http://localhost:80/index.php`, {
+    }).then(res => res.json()).then((res)=>console.log(res))
+    .catch((error) => {console.log(error)});
+  };
+ 
