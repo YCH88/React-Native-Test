@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
 });
 
   function getAllMenu() {
-    fetch(`http://localhost:80/index.php`, {
+    fetch(`https://reactcafetestapi.000webhostapp.com/`, {
     }).then(res => res.json()).then((res)=>console.log(res))
     .catch((error) => {console.log(error)});
   };
