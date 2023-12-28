@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Native-Test/static/css/main.931fe717.css",
-    "main.js": "/React-Native-Test/static/js/main.14bad4b2.js",
+    "main.js": "/React-Native-Test/static/js/main.29da5754.js",
     "static/js/320.713f29dc.js": "/React-Native-Test/static/js/320.713f29dc.js",
     "favicon.ico": "/React-Native-Test/favicon.ico",
     "index.html": "/React-Native-Test/index.html",
@@ -10,12 +10,12 @@
     "manifest.json": "/React-Native-Test/manifest.json",
     "serve.json": "/React-Native-Test/serve.json",
     "main.931fe717.css.map": "/React-Native-Test/static/css/main.931fe717.css.map",
-    "main.14bad4b2.js.map": "/React-Native-Test/static/js/main.14bad4b2.js.map",
+    "main.29da5754.js.map": "/React-Native-Test/static/js/main.29da5754.js.map",
     "320.713f29dc.js.map": "/React-Native-Test/static/js/320.713f29dc.js.map"
   },
   "entrypoints": [
     "static/js/320.713f29dc.js",
     "static/css/main.931fe717.css",
-    "static/js/main.14bad4b2.js"
+    "static/js/main.29da5754.js"
   ]
 }
